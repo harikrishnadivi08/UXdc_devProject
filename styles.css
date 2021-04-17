@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* homepage */
+.header{
+    width: auto;
+    height: 90vh;
+    background-image: url(images/home_page_img2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+/* navbar */
+
+.navbar{
+    width: 100%;
+    height: 40px;
+    background-color: RGBA(255,253,253,0.5);
+    position: fixed;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    text-align: center;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+a{
+    color: #fbfbf2;
+    text-decoration: none;
+    color:black;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* about page */
+.about_page{
+    height: 60vh;
+    width: auto;
+    background-color: turquoise;
+}
+
+/* services */
+.services_page{
+    height: 60vh;
+    width: auto;
+    background-color: rgb(115, 224, 64);
+}
+
+/* portfolio page */
+.portfolio_page{
+    height: 60vh;
+    width: auto;
+    background-color: rgb(224, 64, 197);
+}
+
+/* contact page*/
+.contact_page{
+    height: 60vh;
+    width: auto;
+    background-color: rgb(154, 179, 176);
+}
