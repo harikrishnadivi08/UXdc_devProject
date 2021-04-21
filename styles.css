@@ -10,7 +10,7 @@ body{
     background-image: url(images/home_page_img2.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: top right;
+    background-position: bottom left;
 }
 
 /* navbar */
@@ -18,7 +18,7 @@ body{
 .navbar{
     width: 100%;
     height: 40px;
-    background-color: RGBA(255,253,253,0.5);
+    background-color: RGB(255,253,253);
     position: fixed;
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -65,7 +65,23 @@ li{
 
 /* contact page*/
 .contact_page{
-    height: 60vh;
+    height: 50vh;
     width: auto;
-    background-color: rgb(154, 179, 176);
+    background-color: #000000;
+}
+
+
+/* footer */
+
+footer{
+    height: 50px;
+    background-color: #000000;
+    text-align: center;
+}
+
+footer p{
+    color: #c33232;
+    font-size: 15px;
+    margin: 0px;
+    padding-top: 20px;
 }
