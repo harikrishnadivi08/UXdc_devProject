@@ -3,71 +3,93 @@ body{
     padding: 0;
 }
 
-/* homepage */
-.header{
-    width: auto;
-    height: 90vh;
-    background-image: url(images/home_page_img2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: bottom left;
-}
 
 /* navbar */
 
 .navbar{
     width: 100%;
-    height: 40px;
-    background-color: RGB(255,253,253);
+    height: 60px;
+    background-color: rgb(0, 0, 0);
     position: fixed;
     display: grid;
     grid-template-columns: 2fr 3fr;
     align-items: center;
     text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
 .nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
+    text-align: right;
 }
 
 a{
-    color: #fbfbf2;
+    color: #fcfcfc;
     text-decoration: none;
-    color:black;
 }
 
 li{
     list-style-type: none;
 }
 
+/* homepage */
+.homePage{
+    width: auto;
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    font-size: 100px;
+    text-align: right;
+    Color: rgba(255, 255, 255, 0.719);
+    padding-top: 200px;
+    padding-right: 5%;
+}
+
+.homePage p{
+    margin: 0px;
+}
+
+
 /* about page */
-.about_page{
+.aboutPage{
     height: 60vh;
     width: auto;
-    background-color: turquoise;
+    background-color: rgb(0, 0, 0);
 }
 
 /* services */
-.services_page{
+.servicesPage{
     height: 60vh;
     width: auto;
-    background-color: rgb(115, 224, 64);
+    background-color: rgb(0, 0, 0);
 }
 
 /* portfolio page */
-.portfolio_page{
+.portfolioPage{
     height: 60vh;
     width: auto;
-    background-color: rgb(224, 64, 197);
+    background-color: rgb(0, 0, 0);
 }
 
 /* contact page*/
-.contact_page{
-    height: 50vh;
+.contactPage{
+    height: 30vh;
     width: auto;
     background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+    color:rgb(255, 255, 255)
+}
+
+.gridBoxesC{
+    padding: 0px;
+    margin: 20px;
+    text-align: left;
 }
 
 
@@ -80,7 +102,7 @@ footer{
 }
 
 footer p{
-    color: #c33232;
+    color: #ffffff;
     font-size: 15px;
     margin: 0px;
     padding-top: 20px;
