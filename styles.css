@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
 
-/* navbar */
+/* ---------------------navbar----------------------- */
 
 .navbar{
     width: 100%;
@@ -23,7 +24,6 @@ body{
 .nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
     text-align: right;
 }
 
@@ -36,54 +36,86 @@ li{
     list-style-type: none;
 }
 
-/* homepage */
+/* --------------------homepage---------------------- */
 .homePage{
+    background-image: url(images/home_page_img3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     width: auto;
-    height: 50vh;
-    background-color: rgb(0, 0, 0);
-    font-size: 100px;
-    text-align: right;
-    Color: rgba(255, 255, 255, 0.719);
-    padding-top: 200px;
-    padding-right: 5%;
+    height: 60vh;
+    font-size: 50px;
+    text-align: left;
+    Color: rgba(255, 255, 255, 0.37);
+    padding-top: 300px;
+    padding-left: 10%;
 }
 
 .homePage p{
     margin: 0px;
+    width: 280px;
 }
 
 
-/* about page */
+/* ------------------------about page----------------- */
 .aboutPage{
     height: 60vh;
     width: auto;
     background-color: rgb(0, 0, 0);
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    align-items: center;
+    color: rgba(255, 255, 255, 0.719);
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
-/* services */
+.aPcol1{
+    font-size: 50px;
+    text-align: right;
+}
+
+.aPcol1 p{
+    padding-right: 50px;
+    margin: 0px;
+}
+
+.aPcol2{
+    text-align: left;
+}
+
+.aPcol2 p{
+    padding-left: 50px;
+    padding-right: 10%;
+    line-height: 2rem;
+    margin: 0px;
+}
+
+
+/* ---------------------------services---------------- */
 .servicesPage{
     height: 60vh;
     width: auto;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
-/* portfolio page */
+/* -------------------------portfolio page------------- */
 .portfolioPage{
     height: 60vh;
     width: auto;
     background-color: rgb(0, 0, 0);
 }
 
-/* contact page*/
+/* ---------------------------contact page--------------*/
 .contactPage{
-    height: 30vh;
+    min-height: 30vh;
     width: auto;
     background-color: #000000;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 10px;
     box-sizing: border-box;
-    color:rgb(255, 255, 255)
+    color:rgb(255, 255, 255);
+    padding-left: 10%;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
 .gridBoxesC{
@@ -93,7 +125,7 @@ li{
 }
 
 
-/* footer */
+/* -----------------------footer---------------------- */
 
 footer{
     height: 50px;
