@@ -177,7 +177,7 @@ li{
 }
 
 .contactPage h3{
-    color:tomato;
+    color:#ea0e4b;
 }
 
 
@@ -193,8 +193,8 @@ footer{
 }
 
 footer p{
-    color: #ffffff;
-    font-size: 15px;
+    color: rgb(114, 114, 114);
+    font-size: 16px;
     margin: 0px;
     padding-top: 20px;
 }
@@ -213,7 +213,7 @@ footer p{
 .socialIcons ul li .fab{
     font-size: 18px;
     line-height: 36px;
-    color: rgb(255, 255, 255);
+    color: rgb(114, 114, 114);
  }
 
 
@@ -224,7 +224,7 @@ footer p{
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background-color: rgb(255, 79, 9);
+    background-color: #ea0e4b;
     text-align: center;
     transition: 0.5s;
     transform: translate(0px, -5px);
