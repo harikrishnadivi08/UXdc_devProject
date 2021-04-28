@@ -98,7 +98,7 @@ li{
     min-height: 60vh;
     width: auto;
     background-color: rgb(0, 0, 0);
-     display: grid;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     align-items: center;
     color: rgba(255, 255, 255, 0.719);
@@ -132,20 +132,33 @@ li{
     min-height: 60vh;
     width: auto;
     background-color: rgba(168, 168, 168, 0.541);
+    background-image: linear-gradient(black,white,black);
+}
+
+.servicesPage h1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #92140c;
 }
 
 .sPcols{
     display: grid;
     grid-template-columns: repeat(2, minmax(280px, 1fr));
     min-height: 60vh;
-    padding: 5%;
+    padding: 2.5%;
+}
+
+.sPcols h1{
+    padding-top: 15%;
 }
 
 .imgCont{
-    width: 90%;
-    height: 81%;
+    max-width: 512px;
+    max-height: 288px;
     margin: 10%;
     border-radius: 15px;
+    background-size: cover;
 }
 
 
@@ -255,7 +268,7 @@ footer{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    border-top: 0.5px solid #ea0e4c6e;
+    border-bottom: 0.5px solid #ea0e4c6e;
 }
 
 footer p{
@@ -303,6 +316,10 @@ footer p{
 @media(max-width:620px){
     .sPcols {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .imgCont{
+        margin: 10% 0 10% 5%;
     }
 
     footer{
