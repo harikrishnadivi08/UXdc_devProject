@@ -172,7 +172,7 @@ li{
 
 /* ---------------------------contact page--------------*/
 .contactPage{
-    min-height: 20vh;
+    min-height: 30vh;
     width: auto;
     background-color: #000000;
     display: grid;
@@ -221,18 +221,20 @@ li{
 .newsletter h1{
     color:  #ea0e4b;
     margin: 0;
+    padding-top: 10px;
 }
 
 .newsletter p{
     font-size: 18px;
     margin: 0;
+    padding-top: 10px;
     color: #2a9d8f;
 }
 
 form{
     width: 50%;
     padding-left: 25%;
-    padding-top: 10px;;
+    padding-top: 20px;;
 }
 
 input{
