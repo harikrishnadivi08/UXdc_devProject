@@ -159,7 +159,7 @@ li{
 
 /* ---------------------------contact page--------------*/
 .contactPage{
-    min-height: 30vh;
+    min-height: 20vh;
     width: auto;
     background-color: #000000;
     display: grid;
@@ -172,7 +172,7 @@ li{
 
 .gridBoxesC{
     padding: 0px;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -180,16 +180,82 @@ li{
     color:#ea0e4b;
 }
 
+.contactPage .fas{
+    width: 10px;
+    height: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
 
+.contactPage p a{
+    color:#aaaaaa;
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 18px;
+}
+
+.contactPage a:hover{
+    color:rgb(255, 255, 255);
+}
+
+.newsletter{
+    width: auto;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.newsletter h1{
+    color:  #ea0e4b;
+    margin: 0;
+}
+
+.newsletter p{
+    font-size: 18px;
+    margin: 0;
+    color: #2a9d8f;
+}
+
+form{
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 10px;;
+}
+
+input{
+    background-color: black;
+    color: rgb(114, 114, 114);
+    border-radius: 10px;
+    border: 1px solid rgb(114, 114, 114);
+    height: 30px;
+    width: 75%;
+    text-align: center;
+}
+
+button{
+    background-color: black;
+    color:#ea0e4b;
+    width: auto;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ea0e4b;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+button:hover{
+    color:#ea0e4c8e;
+    border: 1px solid #ea0e4c8e;
+}
 /* -----------------------footer---------------------- */
 
 footer{
     min-height: 5vh;
-    background-color: #000000;
+    background-color: #000000fa;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-
+    border-top: 0.5px solid #ea0e4c6e;
 }
 
 footer p{
