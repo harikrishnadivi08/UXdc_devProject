@@ -4,6 +4,10 @@
     font-family: 'Darker Grotesque', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 /* ---------------------navbar----------------------- */
 
@@ -88,8 +92,21 @@ li{
 
 .homePage p{
     margin: 0px;
-    width: 280px;
+    width: 320px;
     font-weight: 800;
+}
+
+.homepage a{
+    text-decoration: none;
+}
+
+.largeText{
+    font-size: 60px;
+}
+
+.hpButton{
+    font-size: 32px;
+    height: 50px;
 }
 
 
@@ -153,10 +170,11 @@ li{
 }
 
 .sPcols{
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(2, minmax(280px, 1fr));
     min-height: 60vh;
-    padding: 2.5%;
+    padding: 5%;
     font-size: 18px;
 }
 
