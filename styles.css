@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Darker Grotesque', sans-serif;
@@ -167,9 +167,10 @@ li{
 .imgCont{
     max-width: 512px;
     max-height: 288px;
-    margin: 10%;
+    margin: 10% 0% 10% 10%;
     border-radius: 15px;
     background-size: cover;
+    box-shadow: 10px 10px 8px 10px #888888;
 }
 
 
@@ -178,13 +179,40 @@ li{
 
 /* -------------------------portfolio page------------- */
 .portfolioPage{
-    height: 60vh;
+    min-height: 60vh;
     width: auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
     background-color: rgb(0, 0, 0);
-    background-color: rgba(168, 168, 168, 0.541);
     background-image: linear-gradient(white,gray);
 }
 
+.portfolioWrapper{
+    width: 90%;
+    padding: 5%;
+    display: Grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    align-items: center;
+}
+
+.portfolioCont{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 320px;
+    background-color: white;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.imgContainer{
+    width: 160px;
+    height: 160px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 2.5px 2.5px 2px 2.5px #888888;
+}
 /* ---------------------------contact page--------------*/
 .contactPage{
     min-height: 30vh;
@@ -271,6 +299,7 @@ button{
     border-radius: 10px;
     border: 1px solid #ea0e4b;
     padding-left: 10px;
+    padding-right: 10px;
     margin-top: 10px;
 }
 
@@ -344,6 +373,8 @@ footer p{
 
     .imgCont{
         margin: 10% 0 10% 5%;
+        width: 90%;
+        height: 80%;
     }
 
     footer{
